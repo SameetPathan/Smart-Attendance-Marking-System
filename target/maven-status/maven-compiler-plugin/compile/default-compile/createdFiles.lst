@@ -1,0 +1,9 @@
+com\attendance\service\EmailService.class
+com\attendance\entity\Subject.class
+com\attendance\service\FirebaseAttendanceTokenService.class
+com\attendance\service\OTPService$OTPData.class
+com\attendance\entity\User.class
+com\attendance\service\AttendanceTokenService.class
+com\attendance\service\OTPService.class
+com\attendance\config\FirebaseConfig.class
+com\attendance\entity\AttendanceToken.class
