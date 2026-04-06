@@ -1,0 +1,691 @@
+{
+  "AttendanceSystem": {
+    "attendance": {
+      "1884d901-2f06-4bbe-94c8-4471d3dbac83": {
+        "attendanceDate": "2026-03-23T11:27:58.7078137",
+        "createdAt": "2026-03-23T11:27:58.994908600",
+        "id": "1884d901-2f06-4bbe-94c8-4471d3dbac83",
+        "latitude": 18.6687274,
+        "locationAddress": "Lat: 18.66873, Lng: 73.73708 (QR)",
+        "longitude": 73.73708,
+        "status": "PRESENT",
+        "studentId": "e60542e2-d7a0-4512-936d-24058785d513",
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2"
+      },
+      "5645e472-5737-482b-ba19-bee2b89def12": {
+        "attendanceDate": "2025-11-28T17:05:40.0450151",
+        "createdAt": "2025-11-28T17:05:40.319101400",
+        "id": "5645e472-5737-482b-ba19-bee2b89def12",
+        "latitude": 0,
+        "locationAddress": "",
+        "longitude": 0,
+        "status": "PRESENT",
+        "studentId": "e60542e2-d7a0-4512-936d-24058785d513",
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2"
+      },
+      "ae69565f-6be1-4bd7-9017-dce53f8ef0cc": {
+        "attendanceDate": "2026-03-19T02:17:18.2090477",
+        "createdAt": "2026-03-19T02:17:18.477519600",
+        "id": "ae69565f-6be1-4bd7-9017-dce53f8ef0cc",
+        "latitude": 0,
+        "locationAddress": "",
+        "longitude": 0,
+        "status": "PRESENT",
+        "studentId": "e60542e2-d7a0-4512-936d-24058785d513",
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2"
+      }
+    },
+    "attendanceTokens": {
+      "3c58c5a7-40dd-4c1f-b1b9-f590c641d127": {
+        "createdAt": "2025-11-28T02:07:11.3190473",
+        "expired": false,
+        "expiresAt": "2025-11-28T02:17:11.3190473",
+        "id": "3c58c5a7-40dd-4c1f-b1b9-f590c641d127",
+        "isActive": true,
+        "subjectId": "b430fa5f-f4cb-4ccd-88d6-65584670671e",
+        "teacherId": "61159cf0-33de-4950-8584-28eecc0ca866",
+        "token": "7eec2cfb-c4b7-4a8f-8bb4-f4920328631f"
+      },
+      "6477c664-62b7-49f0-b5e8-a5ae6adfff09": {
+        "createdAt": "2025-11-28T17:04:13.4413797",
+        "expired": true,
+        "expiresAt": "2025-11-28T17:06:13.4413797",
+        "id": "6477c664-62b7-49f0-b5e8-a5ae6adfff09",
+        "isActive": false,
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2",
+        "teacherId": "455b2135-badd-4842-90b6-0b423234c2bf",
+        "token": "0825a5e6-bb03-473e-99df-a727a3323e86"
+      },
+      "72d81de3-7cc4-4d4f-8333-9103746e9ac4": {
+        "createdAt": "2026-03-19T02:28:33.9785359",
+        "expired": true,
+        "expiresAt": "2026-03-19T02:30:33.9785359",
+        "id": "72d81de3-7cc4-4d4f-8333-9103746e9ac4",
+        "isActive": false,
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2",
+        "teacherId": "455b2135-badd-4842-90b6-0b423234c2bf",
+        "token": "04ae2183-a11b-4872-a416-c0e0402504e4"
+      },
+      "75b860f5-8005-4dc0-8aaf-a31925ce6ee9": {
+        "createdAt": "2026-03-23T11:26:44.8102991",
+        "expired": false,
+        "expiresAt": "2026-03-23T11:28:44.8102991",
+        "id": "75b860f5-8005-4dc0-8aaf-a31925ce6ee9",
+        "isActive": true,
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2",
+        "teacherId": "455b2135-badd-4842-90b6-0b423234c2bf",
+        "token": "8d243488-5354-4f5c-b87b-eeb5b230ba0d"
+      },
+      "7ecca77a-21d9-412c-a5f0-1b01bc94fcc6": {
+        "createdAt": "2026-03-19T02:48:24.5516228",
+        "expired": true,
+        "expiresAt": "2026-03-19T02:50:24.5516228",
+        "id": "7ecca77a-21d9-412c-a5f0-1b01bc94fcc6",
+        "isActive": false,
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2",
+        "teacherId": "455b2135-badd-4842-90b6-0b423234c2bf",
+        "token": "027625c0-9d56-4697-b528-f65d032f8e08"
+      },
+      "7ff021b6-c34a-4a0f-bbe4-53873b0bcbef": {
+        "createdAt": "2025-11-28T02:14:15.2903523",
+        "expired": false,
+        "expiresAt": "2025-11-28T02:24:15.2903523",
+        "id": "7ff021b6-c34a-4a0f-bbe4-53873b0bcbef",
+        "isActive": true,
+        "subjectId": "b430fa5f-f4cb-4ccd-88d6-65584670671e",
+        "teacherId": "61159cf0-33de-4950-8584-28eecc0ca866",
+        "token": "6f0f8a67-af43-44cc-89bb-402ded7b3aa1"
+      },
+      "9bafd226-e028-4021-af15-40dd3ae41305": {
+        "createdAt": "2025-11-28T02:05:49.8364672",
+        "expired": false,
+        "expiresAt": "2025-11-28T02:15:49.8364672",
+        "id": "9bafd226-e028-4021-af15-40dd3ae41305",
+        "isActive": true,
+        "subjectId": "b430fa5f-f4cb-4ccd-88d6-65584670671e",
+        "teacherId": "61159cf0-33de-4950-8584-28eecc0ca866",
+        "token": "952a9c43-cca9-4db7-853e-980ca5966086"
+      },
+      "c0769fce-2468-49c6-b52e-fc2eb75aaf93": {
+        "createdAt": "2025-11-28T17:00:22.6077646",
+        "expired": true,
+        "expiresAt": "2025-11-28T17:02:22.6077646",
+        "id": "c0769fce-2468-49c6-b52e-fc2eb75aaf93",
+        "isActive": false,
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2",
+        "teacherId": "455b2135-badd-4842-90b6-0b423234c2bf",
+        "token": "e35e0a37-1b49-4f96-911e-c2d1030f0861"
+      },
+      "eee5dce6-70eb-400d-91da-c76eaed162b7": {
+        "createdAt": "2025-11-28T02:14:00.8187917",
+        "expired": false,
+        "expiresAt": "2025-11-28T02:24:00.8187917",
+        "id": "eee5dce6-70eb-400d-91da-c76eaed162b7",
+        "isActive": true,
+        "subjectId": "b430fa5f-f4cb-4ccd-88d6-65584670671e",
+        "teacherId": "61159cf0-33de-4950-8584-28eecc0ca866",
+        "token": "ace2ee60-e933-446e-bd50-090a8398d091"
+      },
+      "f07cb22d-9c8e-4f3b-b5cc-a3a59bfc8d13": {
+        "createdAt": "2026-03-19T02:15:53.4801913",
+        "expired": true,
+        "expiresAt": "2026-03-19T02:17:53.4801913",
+        "id": "f07cb22d-9c8e-4f3b-b5cc-a3a59bfc8d13",
+        "isActive": false,
+        "subjectId": "5f593067-f966-434f-a5d2-6a728856a5a2",
+        "teacherId": "455b2135-badd-4842-90b6-0b423234c2bf",
+        "token": "505be7e5-fe95-4684-abfa-ce7271734b50"
+      },
+      "fa88bd32-46be-44f7-bf9f-13888482a31c": {
+        "createdAt": "2025-11-28T02:09:29.9736632",
+        "expired": false,
+        "expiresAt": "2025-11-28T02:19:29.9736632",
+        "id": "fa88bd32-46be-44f7-bf9f-13888482a31c",
+        "isActive": true,
+        "subjectId": "b430fa5f-f4cb-4ccd-88d6-65584670671e",
+        "teacherId": "61159cf0-33de-4950-8584-28eecc0ca866",
+        "token": "0aa503ca-5615-4489-ad15-b9208dea6d99"
+      }
+    },
+    "classes": {
+      "06cb665b-9e27-41ab-837b-0ed7acbb6608": {
+        "classCode": "FOURTH",
+        "className": "Fourth Year",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Fourth Year Undergraduate Class",
+        "id": "06cb665b-9e27-41ab-837b-0ed7acbb6608"
+      },
+      "2f01e089-422b-4abd-8155-92c567d92719": {
+        "classCode": "DIP",
+        "className": "Diploma",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Diploma Program Class",
+        "id": "2f01e089-422b-4abd-8155-92c567d92719"
+      },
+      "5c46e96e-6e2b-4e71-8f33-703b64366aad": {
+        "classCode": "FOUND",
+        "className": "Foundation",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Foundation Program Class",
+        "id": "5c46e96e-6e2b-4e71-8f33-703b64366aad"
+      },
+      "6f685697-9a7c-49ce-8abd-f4f967e66179": {
+        "classCode": "CERT",
+        "className": "Certificate",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Certificate Program Class",
+        "id": "6f685697-9a7c-49ce-8abd-f4f967e66179"
+      },
+      "77ba54af-9995-4765-9e4e-10e17b7bd8ba": {
+        "classCode": "MSY",
+        "className": "Master Second Year",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Master Second Year Class",
+        "id": "77ba54af-9995-4765-9e4e-10e17b7bd8ba"
+      },
+      "9995ff76-df78-489e-9267-99e3bb6a3718": {
+        "classCode": "TY",
+        "className": "Third Year",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Third Year Undergraduate Class",
+        "id": "9995ff76-df78-489e-9267-99e3bb6a3718"
+      },
+      "a97f0e67-3941-4bc1-8e1a-6a6f284774f6": {
+        "classCode": "FY",
+        "className": "First Year",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "First Year Undergraduate Class",
+        "id": "a97f0e67-3941-4bc1-8e1a-6a6f284774f6"
+      },
+      "ab985b25-f98c-4faf-ba9f-2f73fbe75a3f": {
+        "classCode": "MFY",
+        "className": "Master First Year",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Master First Year Class",
+        "id": "ab985b25-f98c-4faf-ba9f-2f73fbe75a3f"
+      },
+      "beb19386-fe9a-4dd1-8817-8110cf7094bc": {
+        "classCode": "PHD",
+        "className": "PhD",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Doctoral Program Class",
+        "id": "beb19386-fe9a-4dd1-8817-8110cf7094bc"
+      },
+      "c6303085-5b51-4432-9f41-0b49469c5a3a": {
+        "classCode": "SY",
+        "className": "Second Year",
+        "createdAt": "2025-11-28T01:26:55.161841100",
+        "description": "Second Year Undergraduate Class",
+        "id": "c6303085-5b51-4432-9f41-0b49469c5a3a"
+      }
+    },
+    "defaultSubjects": {
+      "0aecafdd-2520-4302-95bf-381fc50c9163": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "Introduction to Mathematics",
+        "id": "0aecafdd-2520-4302-95bf-381fc50c9163",
+        "subjectCode": "MATH101",
+        "subjectName": "Mathematics"
+      },
+      "2358528c-08d9-4650-9fb8-8c0aa2d4a10c": {
+        "createdAt": "2025-11-28T02:05:08.314038100",
+        "description": "Database Systems",
+        "id": "2358528c-08d9-4650-9fb8-8c0aa2d4a10c",
+        "subjectCode": "DBMS101",
+        "subjectName": "Database Management"
+      },
+      "2589b1bd-352a-473f-9526-f7a77195ea57": {
+        "createdAt": "2025-11-28T02:05:08.314038100",
+        "description": "Basic Statistics",
+        "id": "2589b1bd-352a-473f-9526-f7a77195ea57",
+        "subjectCode": "STAT101",
+        "subjectName": "Statistics"
+      },
+      "25ef588b-2d14-4a1c-971c-983d71934993": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "Principles of Economics",
+        "id": "25ef588b-2d14-4a1c-971c-983d71934993",
+        "subjectCode": "ECO101",
+        "subjectName": "Economics"
+      },
+      "341e7461-c4ce-4307-a520-0f583c46a583": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "English Language and Literature",
+        "id": "341e7461-c4ce-4307-a520-0f583c46a583",
+        "subjectCode": "ENG101",
+        "subjectName": "English"
+      },
+      "4f8a93be-830f-4a8b-9313-4fe9457fa933": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "Introduction to Computer Science",
+        "id": "4f8a93be-830f-4a8b-9313-4fe9457fa933",
+        "subjectCode": "CS101",
+        "subjectName": "Computer Science"
+      },
+      "54ad9546-bdc1-42f7-a401-b9dfab4ba093": {
+        "createdAt": "2025-11-28T02:05:08.314038100",
+        "description": "Software Development Lifecycle",
+        "id": "54ad9546-bdc1-42f7-a401-b9dfab4ba093",
+        "subjectCode": "SE101",
+        "subjectName": "Software Engineering"
+      },
+      "5949dfff-7a31-4326-9679-1491627b20e8": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "Fundamentals of Physics",
+        "id": "5949dfff-7a31-4326-9679-1491627b20e8",
+        "subjectCode": "PHY101",
+        "subjectName": "Physics"
+      },
+      "6edd2ba3-223f-47b8-920c-558890259687": {
+        "createdAt": "2025-11-28T02:05:08.314038100",
+        "description": "Programming Fundamentals",
+        "id": "6edd2ba3-223f-47b8-920c-558890259687",
+        "subjectCode": "PROG101",
+        "subjectName": "Programming"
+      },
+      "b872debc-2ee6-4dc9-9228-8c3b5a10dc4a": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "World History",
+        "id": "b872debc-2ee6-4dc9-9228-8c3b5a10dc4a",
+        "subjectCode": "HIST101",
+        "subjectName": "History"
+      },
+      "be36a7b7-a218-46cc-8128-eed39a2ed944": {
+        "createdAt": "2025-11-28T02:05:08.314038100",
+        "description": "Data Structures and Algorithms",
+        "id": "be36a7b7-a218-46cc-8128-eed39a2ed944",
+        "subjectCode": "DS101",
+        "subjectName": "Data Structures"
+      },
+      "c6bcb971-47ab-4eb1-80d2-2106da63dc2f": {
+        "createdAt": "2025-11-28T02:05:08.314038100",
+        "description": "Introduction to Psychology",
+        "id": "c6bcb971-47ab-4eb1-80d2-2106da63dc2f",
+        "subjectCode": "PSY101",
+        "subjectName": "Psychology"
+      },
+      "ca0558d4-b07a-4cc6-88c2-96d86bfb943f": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "Introduction to Biology",
+        "id": "ca0558d4-b07a-4cc6-88c2-96d86bfb943f",
+        "subjectCode": "BIO101",
+        "subjectName": "Biology"
+      },
+      "d6733a06-38b0-4971-ae33-83fce2b7180a": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "Physical and Human Geography",
+        "id": "d6733a06-38b0-4971-ae33-83fce2b7180a",
+        "subjectCode": "GEO101",
+        "subjectName": "Geography"
+      },
+      "efc5c78f-4a1b-4337-a216-dade75e69172": {
+        "createdAt": "2025-11-28T02:05:08.313040100",
+        "description": "Basic Chemistry",
+        "id": "efc5c78f-4a1b-4337-a216-dade75e69172",
+        "subjectCode": "CHEM101",
+        "subjectName": "Chemistry"
+      }
+    },
+    "subjects": {
+      "0109c3b5-f08e-49f1-b18b-2098d960086c": {
+        "classId": "9995ff76-df78-489e-9267-99e3bb6a3718",
+        "createdAt": "2026-03-23T11:39:52.375885500",
+        "description": "ML Algorithms and Applications",
+        "id": "0109c3b5-f08e-49f1-b18b-2098d960086c",
+        "subjectCode": "ML-TY",
+        "subjectName": "Machine Learning"
+      },
+      "0d3f9cb7-23cf-42e0-8017-a77ea91b3855": {
+        "classId": "9995ff76-df78-489e-9267-99e3bb6a3718",
+        "createdAt": "2026-03-23T11:39:51.758934700",
+        "description": "Introduction to AI",
+        "id": "0d3f9cb7-23cf-42e0-8017-a77ea91b3855",
+        "subjectCode": "AI-TY",
+        "subjectName": "Artificial Intelligence"
+      },
+      "130af32d-3c1f-4d99-9cf2-eb0bca16e5d8": {
+        "classId": "a97f0e67-3941-4bc1-8e1a-6a6f284774f6",
+        "createdAt": "2026-03-23T11:39:44.285606300",
+        "description": "Basic Mathematics for First Year",
+        "id": "130af32d-3c1f-4d99-9cf2-eb0bca16e5d8",
+        "subjectCode": "MATH-FY",
+        "subjectName": "Mathematics"
+      },
+      "1486173f-d453-47f9-ab7e-7d7d13b0f768": {
+        "classId": "a97f0e67-3941-4bc1-8e1a-6a6f284774f6",
+        "createdAt": "2026-03-23T11:39:46.189150400",
+        "description": "English Language and Communication",
+        "id": "1486173f-d453-47f9-ab7e-7d7d13b0f768",
+        "subjectCode": "ENG-FY",
+        "subjectName": "English"
+      },
+      "15ed3aad-3b95-4dac-b108-c7a4edef449b": {
+        "classId": "06cb665b-9e27-41ab-837b-0ed7acbb6608",
+        "createdAt": "2026-03-23T11:39:56.509167300",
+        "description": "Big Data Analytics",
+        "id": "15ed3aad-3b95-4dac-b108-c7a4edef449b",
+        "subjectCode": "BD-FOURTH",
+        "subjectName": "Big Data"
+      },
+      "1819cd48-9c01-4ffb-bab7-1c3748bf4a91": {
+        "classId": "5c46e96e-6e2b-4e71-8f33-703b64366aad",
+        "createdAt": "2026-03-23T11:40:09.941441400",
+        "description": "Foundation Science",
+        "id": "1819cd48-9c01-4ffb-bab7-1c3748bf4a91",
+        "subjectCode": "BS-FOUND",
+        "subjectName": "Basic Science"
+      },
+      "1c06c14c-57b7-444e-9263-7169261934b5": {
+        "classId": "c6303085-5b51-4432-9f41-0b49469c5a3a",
+        "createdAt": "2026-03-23T11:39:49.608581700",
+        "description": "OS Concepts and Design",
+        "id": "1c06c14c-57b7-444e-9263-7169261934b5",
+        "subjectCode": "OS-SY",
+        "subjectName": "Operating Systems"
+      },
+      "1db8e522-42e7-4fc1-9d43-8c580897b3dc": {
+        "classId": "9995ff76-df78-489e-9267-99e3bb6a3718",
+        "createdAt": "2026-03-23T11:39:53.691132900",
+        "description": "2D and 3D Graphics",
+        "id": "1db8e522-42e7-4fc1-9d43-8c580897b3dc",
+        "subjectCode": "CG-TY",
+        "subjectName": "Computer Graphics"
+      },
+      "209f9b3e-90ef-4700-942a-29faa3103cce": {
+        "classId": "c6303085-5b51-4432-9f41-0b49469c5a3a",
+        "createdAt": "2026-03-23T11:39:47.771833",
+        "description": "Data Structures and Algorithms",
+        "id": "209f9b3e-90ef-4700-942a-29faa3103cce",
+        "subjectCode": "DS-SY",
+        "subjectName": "Data Structures"
+      },
+      "39f047ee-1170-42d2-8a6f-8de14e3d1dc3": {
+        "classId": "beb19386-fe9a-4dd1-8817-8110cf7094bc",
+        "createdAt": "2026-03-23T11:40:04.113600300",
+        "description": "Advanced Topics in CS",
+        "id": "39f047ee-1170-42d2-8a6f-8de14e3d1dc3",
+        "subjectCode": "AT-PHD",
+        "subjectName": "Advanced Topics"
+      },
+      "42c7f422-ed8e-4263-aa23-0968620f9e0a": {
+        "classId": "a97f0e67-3941-4bc1-8e1a-6a6f284774f6",
+        "createdAt": "2026-03-23T11:39:45.520711",
+        "description": "Basic Chemistry",
+        "id": "42c7f422-ed8e-4263-aa23-0968620f9e0a",
+        "subjectCode": "CHEM-FY",
+        "subjectName": "Chemistry"
+      },
+      "46ea1b8a-2768-4303-9924-5489d49f57c0": {
+        "classId": "c6303085-5b51-4432-9f41-0b49469c5a3a",
+        "createdAt": "2026-03-23T11:39:48.977771200",
+        "description": "Networking Fundamentals",
+        "id": "46ea1b8a-2768-4303-9924-5489d49f57c0",
+        "subjectCode": "CN-SY",
+        "subjectName": "Computer Networks"
+      },
+      "4d6048ff-de01-4621-a889-d67b83ff86c6": {
+        "classId": "a97f0e67-3941-4bc1-8e1a-6a6f284774f6",
+        "createdAt": "2026-03-23T11:39:46.821192700",
+        "description": "Introduction to Programming",
+        "id": "4d6048ff-de01-4621-a889-d67b83ff86c6",
+        "subjectCode": "PROG-FY",
+        "subjectName": "Programming"
+      },
+      "4dd9beee-0972-47fa-a857-7a06bdbe45e8": {
+        "classId": "5c46e96e-6e2b-4e71-8f33-703b64366aad",
+        "createdAt": "2026-03-23T11:40:10.780445800",
+        "description": "English Communication Skills",
+        "id": "4dd9beee-0972-47fa-a857-7a06bdbe45e8",
+        "subjectCode": "COMM-FOUND",
+        "subjectName": "Communication Skills"
+      },
+      "5374ed28-52f7-4094-8ce6-e7ac0404042f": {
+        "classId": "c6303085-5b51-4432-9f41-0b49469c5a3a",
+        "createdAt": "2026-03-23T11:39:48.369119400",
+        "description": "Database Systems and SQL",
+        "id": "5374ed28-52f7-4094-8ce6-e7ac0404042f",
+        "subjectCode": "DBMS-SY",
+        "subjectName": "Database Management"
+      },
+      "5f593067-f966-434f-a5d2-6a728856a5a2": {
+        "classId": "5c46e96e-6e2b-4e71-8f33-703b64366aad",
+        "createdAt": "2025-11-28T17:00:01.826676400",
+        "description": "Database Systems",
+        "id": "5f593067-f966-434f-a5d2-6a728856a5a2",
+        "subjectCode": "DBMS101",
+        "subjectName": "Database Management",
+        "teacherId": "455b2135-badd-4842-90b6-0b423234c2bf"
+      },
+      "67a9c67c-7c29-4636-af46-fe4130949318": {
+        "classId": "9995ff76-df78-489e-9267-99e3bb6a3718",
+        "createdAt": "2026-03-23T11:39:51.147771900",
+        "description": "Software Development Lifecycle",
+        "id": "67a9c67c-7c29-4636-af46-fe4130949318",
+        "subjectCode": "SE-TY",
+        "subjectName": "Software Engineering"
+      },
+      "693ee479-537b-47f6-883c-dacccbbbe551": {
+        "classId": "6f685697-9a7c-49ce-8abd-f4f967e66179",
+        "createdAt": "2026-03-23T11:40:08.249111200",
+        "description": "Hands-on Practical Training",
+        "id": "693ee479-537b-47f6-883c-dacccbbbe551",
+        "subjectCode": "PT-CERT",
+        "subjectName": "Practical Training"
+      },
+      "715b74ba-6ece-4cba-9d90-4276725b5eb3": {
+        "classId": "9995ff76-df78-489e-9267-99e3bb6a3718",
+        "createdAt": "2026-03-23T11:39:53.037497",
+        "description": "Full Stack Web Development",
+        "id": "715b74ba-6ece-4cba-9d90-4276725b5eb3",
+        "subjectCode": "WEB-TY",
+        "subjectName": "Web Development"
+      },
+      "81283ffe-dbec-465c-9e8a-d4180a97fdee": {
+        "classId": "2f01e089-422b-4abd-8155-92c567d92719",
+        "createdAt": "2026-03-23T11:40:05.229033",
+        "description": "Engineering Technical Drawing",
+        "id": "81283ffe-dbec-465c-9e8a-d4180a97fdee",
+        "subjectCode": "TD-DIP",
+        "subjectName": "Technical Drawing"
+      },
+      "86750123-b976-442d-9e76-c058f7795470": {
+        "classId": "06cb665b-9e27-41ab-837b-0ed7acbb6608",
+        "createdAt": "2026-03-23T11:39:55.891349400",
+        "description": "Network and Information Security",
+        "id": "86750123-b976-442d-9e76-c058f7795470",
+        "subjectCode": "SEC-FOURTH",
+        "subjectName": "Cybersecurity"
+      },
+      "8bd97fd9-ff72-4ef5-b5ed-b61e97427a67": {
+        "classId": "c6303085-5b51-4432-9f41-0b49469c5a3a",
+        "createdAt": "2026-03-23T11:39:50.237872800",
+        "description": "Discrete Mathematics",
+        "id": "8bd97fd9-ff72-4ef5-b5ed-b61e97427a67",
+        "subjectCode": "MATH-SY",
+        "subjectName": "Mathematics"
+      },
+      "9dfe5564-881c-4154-b51f-0561d8d27757": {
+        "classId": "06cb665b-9e27-41ab-837b-0ed7acbb6608",
+        "createdAt": "2026-03-23T11:39:57.209259600",
+        "description": "Internet of Things",
+        "id": "9dfe5564-881c-4154-b51f-0561d8d27757",
+        "subjectCode": "IOT-FOURTH",
+        "subjectName": "IoT"
+      },
+      "a10b0192-6cf9-4461-b77a-96c6faf63976": {
+        "classId": "77ba54af-9995-4765-9e4e-10e17b7bd8ba",
+        "createdAt": "2026-03-23T11:40:02.505120700",
+        "description": "Distributed Computing Systems",
+        "id": "a10b0192-6cf9-4461-b77a-96c6faf63976",
+        "subjectCode": "DIST-MSY",
+        "subjectName": "Distributed Systems"
+      },
+      "ad062df9-21ae-49d0-81bb-7d2402ec2d30": {
+        "classId": "5c46e96e-6e2b-4e71-8f33-703b64366aad",
+        "createdAt": "2026-03-23T11:40:09.248920700",
+        "description": "Foundation Mathematics",
+        "id": "ad062df9-21ae-49d0-81bb-7d2402ec2d30",
+        "subjectCode": "BM-FOUND",
+        "subjectName": "Basic Mathematics"
+      },
+      "b175fbd2-2574-44d3-a9ec-6c6e69719bfa": {
+        "classId": "ab985b25-f98c-4faf-ba9f-2f73fbe75a3f",
+        "createdAt": "2026-03-23T11:39:59.398992400",
+        "description": "Advanced Database Systems",
+        "id": "b175fbd2-2574-44d3-a9ec-6c6e69719bfa",
+        "subjectCode": "ADBMS-MFY",
+        "subjectName": "Advanced DBMS"
+      },
+      "c69e2660-2f50-461f-bdd2-b3e4142b4bfc": {
+        "classId": "ab985b25-f98c-4faf-ba9f-2f73fbe75a3f",
+        "createdAt": "2026-03-23T11:39:58.161898600",
+        "description": "Research Methodology",
+        "id": "c69e2660-2f50-461f-bdd2-b3e4142b4bfc",
+        "subjectCode": "RM-MFY",
+        "subjectName": "Research Methods"
+      },
+      "c7294160-ebe2-4a76-82e3-e9988c3b5e49": {
+        "classId": "77ba54af-9995-4765-9e4e-10e17b7bd8ba",
+        "createdAt": "2026-03-23T11:40:01.170502500",
+        "description": "Master Thesis Work",
+        "id": "c7294160-ebe2-4a76-82e3-e9988c3b5e49",
+        "subjectCode": "THESIS-MSY",
+        "subjectName": "Thesis"
+      },
+      "d28fad07-6fde-4dc3-9f98-7deef3b9e06e": {
+        "classId": "ab985b25-f98c-4faf-ba9f-2f73fbe75a3f",
+        "createdAt": "2026-03-23T11:39:58.777777",
+        "description": "Advanced Algorithm Design",
+        "id": "d28fad07-6fde-4dc3-9f98-7deef3b9e06e",
+        "subjectCode": "AA-MFY",
+        "subjectName": "Advanced Algorithms"
+      },
+      "d3dd3565-ae1b-4f4f-905f-096f25cd353a": {
+        "classId": "06cb665b-9e27-41ab-837b-0ed7acbb6608",
+        "createdAt": "2026-03-23T11:39:54.674515700",
+        "description": "Software Project Management",
+        "id": "d3dd3565-ae1b-4f4f-905f-096f25cd353a",
+        "subjectCode": "PM-FOURTH",
+        "subjectName": "Project Management"
+      },
+      "d40363dc-ebb3-4c4e-baf7-e89aea120f5e": {
+        "classId": "2f01e089-422b-4abd-8155-92c567d92719",
+        "createdAt": "2026-03-23T11:40:05.877617400",
+        "description": "Hands-on Workshop Training",
+        "id": "d40363dc-ebb3-4c4e-baf7-e89aea120f5e",
+        "subjectCode": "WP-DIP",
+        "subjectName": "Workshop Practice"
+      },
+      "d9ac2aff-bb10-4e44-a7a7-f1f049d483bd": {
+        "classId": "a97f0e67-3941-4bc1-8e1a-6a6f284774f6",
+        "createdAt": "2026-03-23T11:39:44.897582",
+        "description": "Fundamentals of Physics",
+        "id": "d9ac2aff-bb10-4e44-a7a7-f1f049d483bd",
+        "subjectCode": "PHY-FY",
+        "subjectName": "Physics"
+      },
+      "da0b71fa-d5e5-4eaf-923f-8895d4e84bb5": {
+        "classId": "06cb665b-9e27-41ab-837b-0ed7acbb6608",
+        "createdAt": "2026-03-23T11:39:55.288248200",
+        "description": "Cloud Platforms and Services",
+        "id": "da0b71fa-d5e5-4eaf-923f-8895d4e84bb5",
+        "subjectCode": "CLOUD-FOURTH",
+        "subjectName": "Cloud Computing"
+      },
+      "dd991d22-0dd7-4565-836e-a244e1072c59": {
+        "classId": "ab985b25-f98c-4faf-ba9f-2f73fbe75a3f",
+        "createdAt": "2026-03-23T11:40:00.238691",
+        "description": "Advanced Machine Learning",
+        "id": "dd991d22-0dd7-4565-836e-a244e1072c59",
+        "subjectCode": "ML-MFY",
+        "subjectName": "Machine Learning"
+      },
+      "e22fb46a-2319-4015-a31b-ef9b99088c1e": {
+        "classId": "77ba54af-9995-4765-9e4e-10e17b7bd8ba",
+        "createdAt": "2026-03-23T11:40:01.871312400",
+        "description": "Advanced Artificial Intelligence",
+        "id": "e22fb46a-2319-4015-a31b-ef9b99088c1e",
+        "subjectCode": "AAI-MSY",
+        "subjectName": "Advanced AI"
+      },
+      "e9c81a19-80e8-4091-a60b-7f86c27b7754": {
+        "classId": "2f01e089-422b-4abd-8155-92c567d92719",
+        "createdAt": "2026-03-23T11:40:06.547536400",
+        "description": "Mathematics for Diploma",
+        "id": "e9c81a19-80e8-4091-a60b-7f86c27b7754",
+        "subjectCode": "AM-DIP",
+        "subjectName": "Applied Mathematics"
+      },
+      "ea617945-2f74-4b6c-b36d-c7b26f2d5ae5": {
+        "classId": "beb19386-fe9a-4dd1-8817-8110cf7094bc",
+        "createdAt": "2026-03-23T11:40:03.470458700",
+        "description": "Advanced Research Methodology",
+        "id": "ea617945-2f74-4b6c-b36d-c7b26f2d5ae5",
+        "subjectCode": "RMET-PHD",
+        "subjectName": "Research Methodology"
+      },
+      "f0fb4cd7-f135-4dc4-9f2a-e4bd7cebbe28": {
+        "classId": "6f685697-9a7c-49ce-8abd-f4f967e66179",
+        "createdAt": "2026-03-23T11:40:07.579806800",
+        "description": "Core Fundamentals",
+        "id": "f0fb4cd7-f135-4dc4-9f2a-e4bd7cebbe28",
+        "subjectCode": "FUND-CERT",
+        "subjectName": "Fundamentals"
+      }
+    },
+    "users": {
+      "455b2135-badd-4842-90b6-0b423234c2bf": {
+        "admin": false,
+        "createdAt": "2025-11-28T16:54:46.375923400",
+        "email": "sameetpathanrs@gmail.com",
+        "fullName": "Sameet Pathan",
+        "id": "455b2135-badd-4842-90b6-0b423234c2bf",
+        "isApproved": true,
+        "password": "$2a$10$SY/2bZ.sr0mkmkn1WVqseOwyPyE798EhMChStSMI1wuGnlVzPS0E.",
+        "roleId": 1,
+        "student": false,
+        "teacher": true,
+        "username": "Sameet"
+      },
+      "5e618457-7bb9-4cdc-ad53-da806ec77a7b": {
+        "admin": true,
+        "createdAt": "2026-03-23T10:46:11.626146600",
+        "email": "admin@attendance.com",
+        "fullName": "System Administrator",
+        "id": "5e618457-7bb9-4cdc-ad53-da806ec77a7b",
+        "isApproved": true,
+        "password": "$2a$10$5YLqg5N6iB/uUKo5KHJHCe/Y8rFjko1scKWPzZLbFxrLP6hGZT1YS",
+        "roleId": 0,
+        "student": false,
+        "teacher": false,
+        "username": "admin"
+      },
+      "a90b0e8f-e334-4796-8072-87e4c19ec019": {
+        "admin": true,
+        "createdAt": "2025-11-27T21:55:58.246649100",
+        "email": "admin@attendance.com",
+        "fullName": "System Administrator",
+        "id": "a90b0e8f-e334-4796-8072-87e4c19ec019",
+        "isApproved": true,
+        "password": "$2a$10$dCuZbnZZuYFfdMO88YEgOeUARzq.yGlgiG9WOYM15uUXTWZyUY6Fi",
+        "roleId": 0,
+        "student": false,
+        "teacher": false,
+        "username": "admin"
+      },
+      "e60542e2-d7a0-4512-936d-24058785d513": {
+        "admin": false,
+        "createdAt": "2025-11-28T17:02:03.912330",
+        "email": "sameetpathanpr@gmail.com",
+        "fullName": "Zoya Pathan",
+        "id": "e60542e2-d7a0-4512-936d-24058785d513",
+        "isApproved": true,
+        "password": "$2a$10$bA9OTef0vJscCNyhQC.NguZXTK8HIrvSpNO88led8vaB/Kdgs9NgO",
+        "roleId": 2,
+        "student": true,
+        "teacher": false,
+        "username": "Zoya"
+      }
+    }
+  }
+}
